@@ -14,7 +14,7 @@ resource "aws_instance" "test" {
    count=3   #creates 3 instances of same name and type
 }
 
-
+ 
 # variable instance_type_map{
 #   type =  map(string)
 #   default = {
